@@ -42,9 +42,9 @@
     </dependencies> 
   
     <build>
-     <sourceDirectory>src/main/java</sourceDirectory>
-     <testSourceDirectory>src/test/java</testSourceDirectory> 
-      <pluginManagement>
+		<sourceDirectory>src/main</sourceDirectory>
+     	<testSourceDirectory>src/test</testSourceDirectory>
+   	  <pluginManagement>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

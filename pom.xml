@@ -42,8 +42,8 @@
     </dependencies> 
   
     <build>
-		<sourceDirectory>src/main/java/integrationContinue</sourceDirectory>
-     	<testSourceDirectory>src/test/java/integrationContinue</testSourceDirectory>
+		<sourceDirectory>src</sourceDirectory>
+     	<testSourceDirectory>test</testSourceDirectory>
    	  <pluginManagement>
         <plugins>
             <plugin>

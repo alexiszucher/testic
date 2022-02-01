@@ -1,5 +1,3 @@
-package integrationContinue;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
@@ -11,6 +9,9 @@ import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+
+import integrationContinue.Calculs;
+
 
 @RunWith(Parameterized.class)
 public class CalculsTest2 {

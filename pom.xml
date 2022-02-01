@@ -42,14 +42,8 @@
     </dependencies> 
   
     <build>
-
-        <sourceDirectory>src</sourceDirectory>
-        <!-- source test of the package -->
-        <testSourceDirectory>test</testSourceDirectory>
-
-
-      <!--<sourceDirectory>src/main/java/packJunit</sourceDirectory>-->
-     <!-- <testSourceDirectory>src/test/java/packJunit</testSourceDirectory> -->
+     <sourceDirectory>src/main/java</sourceDirectory>
+     <testSourceDirectory>src/test/java</testSourceDirectory> 
       <pluginManagement>
         <plugins>
             <plugin>

@@ -42,12 +42,12 @@ class CalculsTest {
 	void testMultiplier(int firstNumber, int secondNumber, int expectedResult) 
 	{
 		// Partie paramétrée
-	        Calculs monCal = new Calculs(firstNumber, secondNumber);
-	        assertEquals(expectedResult, monCal.multiplier(), "test en échec pour " + firstNumber + " * " + secondNumber + " != " + expectedResult); 
+        Calculs monCal = new Calculs(firstNumber, secondNumber);
+        assertEquals(expectedResult, monCal.multiplier(), "test en échec pour " + firstNumber + " * " + secondNumber + " != " + expectedResult); 
 
 	    // Partie indépendante (les paramètres peuvent ne servir qu'à une sous partie des tests)
-	        String n = null;
-	        assertNull(n);
+        String n = null;
+        assertNull(n);
 	}
 
 }

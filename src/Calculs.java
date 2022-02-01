@@ -1,4 +1,4 @@
-package integrationContinue;
+
 
 public class Calculs {
 	
